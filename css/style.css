@@ -5,7 +5,12 @@
 }
 
 
+img{
+    width: 280px;
+    height: 400px;
+    margin-left: 15px;
 
+}
 
 main{
     width: 40%;
@@ -15,80 +20,61 @@ main{
     
 }
 
-.box{
+.card{
     width:calc((100% / 3) - 10px);
     height: 500px;
     margin: 3px;
-    background-color: blue;
     display: inline-block;
-    background-image:url(../img/1.webp);
     background-size: cover;
     position: relative;
+    
+    
+    
+    
+    
+
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    
+    
+    
+    
     
     
 }
 .box2{
-    width:calc((100% / 3) - 10px);
-    height: 500px;
-    margin: 3px;
-    background-color: blue;
-    display: inline-block;
-    background-image:url(../img/2.webp);
-    background-size: cover;
-    position: relative;
+    width: 200px;
+    height: 400px;
+    
     
     
     
 }
 .box3{
-    width:calc((100% / 3) - 10px);
-    height: 500px;
-    margin: 3px;
-    background-color: blue;
-    display: inline-block;
-    background-image:url(../img/3.webp);
-    background-size: cover;
-    position: relative;
+    width: 200px;
+    height: 400px;
+    
     
     
     
 }
 .box4{
-    width:calc((100% / 3) - 10px);
-    height: 500px;
-    margin: 3px;
-    background-color: blue;
-   
-    display: inline-block;
-    background-image:url(../img/4.webp);
-    background-size: cover;
-    position: relative;
+    width: 200px;
+    height: 400px;
     
     
 }
 .box5{
-    width:calc((100% / 3) - 10px);
-    height: 500px;
-    margin: 3px;
-    background-color: blue;
-    
-    display: inline-block;
-    background-image:url(../img/5.webp);
-    background-size: cover;
-    position: relative;
-    
+    width: 200px;
+    height: 400px;
     
 }
 .box6{
-    width:calc((100% / 3) - 10px);
-    height: 500px;
-    margin: 3px;
-    background-color: blue;
-    
-    display: inline-block;
-    background-image:url(../img/6.webp);
-    background-size: cover;
-    position: relative;
+    width: 200px;
+    height: 400px;
     
 }
 
@@ -145,7 +131,6 @@ main{
 .box-overlay{
     width: 100%;
     height: 100%;
-    background-color: black;
     display: none;
 
 }
@@ -340,5 +325,20 @@ main{
 }
 
 
+.brand{
+    font-size: 15px;
+    
+}
 
 
+.cloth-type{
+    font-weight: 600;
+    
+}
+ figcaption > span{
+     margin-left: 15px;
+     
+    
+    
+
+ }
