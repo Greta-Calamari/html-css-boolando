@@ -4,19 +4,14 @@
     box-sizing: border-box;
 }
 
-.row{
-    
-    
-    
 
-}
 
 
 main{
     width: 40%;
     height: 1300px;
-    margin-top: 50px;
-    margin-left: 30%;
+    padding: 50px;
+    margin-left: 700px;
     
 }
 
@@ -25,7 +20,6 @@ main{
     height: 500px;
     margin: 3px;
     background-color: blue;
-
     display: inline-block;
     background-image:url(../img/1.webp);
     background-size: cover;
@@ -38,11 +32,11 @@ main{
     height: 500px;
     margin: 3px;
     background-color: blue;
-    
     display: inline-block;
     background-image:url(../img/2.webp);
     background-size: cover;
     position: relative;
+    
     
     
 }
@@ -51,11 +45,11 @@ main{
     height: 500px;
     margin: 3px;
     background-color: blue;
-    
     display: inline-block;
     background-image:url(../img/3.webp);
     background-size: cover;
     position: relative;
+    
     
     
 }
@@ -106,7 +100,9 @@ main{
     position: absolute;
     right: 0;
     top: 30px;
-    content: '&#9829';
+    font-size: 30px;
+    text-align: center;
+    
     
    
     
