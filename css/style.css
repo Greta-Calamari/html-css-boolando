@@ -26,9 +26,72 @@ main{
     background-color: blue;
     border: 2px solid black;
     display: inline-block;
+    background-image:url(../img/1.webp);
+    background-size: cover;
     
     
 }
+.box2{
+    width:calc((100% / 3) - 10px);
+    height: 500px;
+    margin: 3px;
+    background-color: blue;
+    border: 2px solid black;
+    display: inline-block;
+    background-image:url(../img/2.webp);
+    background-size: cover;
+    
+    
+}
+.box3{
+    width:calc((100% / 3) - 10px);
+    height: 500px;
+    margin: 3px;
+    background-color: blue;
+    border: 2px solid black;
+    display: inline-block;
+    background-image:url(../img/3.webp);
+    background-size: cover;
+    
+    
+}
+.box4{
+    width:calc((100% / 3) - 10px);
+    height: 500px;
+    margin: 3px;
+    background-color: blue;
+    border: 2px solid black;
+    display: inline-block;
+    background-image:url(../img/4.webp);
+    background-size: cover;
+    
+    
+}
+.box5{
+    width:calc((100% / 3) - 10px);
+    height: 500px;
+    margin: 3px;
+    background-color: blue;
+    border: 2px solid black;
+    display: inline-block;
+    background-image:url(../img/5.webp);
+    background-size: cover;
+    
+    
+}
+.box6{
+    width:calc((100% / 3) - 10px);
+    height: 500px;
+    margin: 3px;
+    background-color: blue;
+    border: 2px solid black;
+    display: inline-block;
+    background-image:url(../img/6.webp);
+    background-size: cover;
+    
+    
+}
+
 
 .box-overlay{
     width: 100%;
@@ -41,5 +104,81 @@ main{
 .box:hover .box-overlay{
 
     display: inline-block;
+    background-image: url(../img/1b.webp);
+    background-size: cover;
     
 }
+
+.box-overlay2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+
+}
+.box2:hover .box-overlay2{
+
+    display: inline-block;
+    background-image: url(../img/2b.webp);
+    background-size: cover;
+    
+}
+.box-overlay3{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+
+}
+.box3:hover .box-overlay3{
+
+    display: inline-block;
+    background-image: url(../img/3b.webp);
+    background-size: cover;
+    
+}
+.box-overlay4{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+
+}
+.box4:hover .box-overlay4{
+
+    display: inline-block;
+    background-image: url(../img/4b.webp);
+    background-size: cover;
+    
+}
+.box-overlay5{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+
+}
+.box5:hover .box-overlay5{
+
+    display: inline-block;
+    background-image: url(../img/5b.webp);
+    background-size: cover;
+    
+}
+.box-overlay6{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+
+}
+.box6:hover .box-overlay6{
+
+    display: inline-block;
+    background-image: url(../img/6b.webp);
+    background-size: cover;
+    
+}
+
+
+
