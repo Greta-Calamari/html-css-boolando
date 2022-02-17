@@ -290,8 +290,8 @@ main{
 }
 
 .box-overlay5{
-    width: 295px;
-    height: 397px;
+    width: 280px;
+    height: 390px;
     position: relative;
     bottom: 400px;
     left: 15px;
@@ -354,4 +354,13 @@ main{
     
     
 
+ }
+
+ .price{
+     font-weight: 800;
+     color: red;
+ }
+
+ .discount{
+     text-decoration: line-through;
  }
