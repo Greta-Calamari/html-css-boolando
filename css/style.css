@@ -14,8 +14,7 @@
 
 main{
     width: 40%;
-    height: 1020px;
-    background: red;
+    height: 1300px;
     margin-top: 50px;
     margin-left: 30%;
     
@@ -26,7 +25,7 @@ main{
     height: 500px;
     margin: 3px;
     background-color: blue;
-    border: 2px solid black;
+
     display: inline-block;
     background-image:url(../img/1.webp);
     background-size: cover;
@@ -39,7 +38,7 @@ main{
     height: 500px;
     margin: 3px;
     background-color: blue;
-    border: 2px solid black;
+    
     display: inline-block;
     background-image:url(../img/2.webp);
     background-size: cover;
@@ -52,7 +51,7 @@ main{
     height: 500px;
     margin: 3px;
     background-color: blue;
-    border: 2px solid black;
+    
     display: inline-block;
     background-image:url(../img/3.webp);
     background-size: cover;
@@ -65,7 +64,7 @@ main{
     height: 500px;
     margin: 3px;
     background-color: blue;
-    border: 2px solid black;
+   
     display: inline-block;
     background-image:url(../img/4.webp);
     background-size: cover;
@@ -78,7 +77,7 @@ main{
     height: 500px;
     margin: 3px;
     background-color: blue;
-    border: 2px solid black;
+    
     display: inline-block;
     background-image:url(../img/5.webp);
     background-size: cover;
@@ -91,12 +90,29 @@ main{
     height: 500px;
     margin: 3px;
     background-color: blue;
-    border: 2px solid black;
+    
     display: inline-block;
     background-image:url(../img/6.webp);
     background-size: cover;
     position: relative;
     
+}
+
+.heart{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    content: "&hearts;";
+    position: absolute;
+    right: 0;
+    top: 30px;
+    content: '&#9829';
+    
+   
+    
+    
+    
+
 }
 
 .sconto{
@@ -143,6 +159,7 @@ main{
     display: inline-block;
     background-image: url(../img/1b.webp);
     background-size: cover;
+    
     
 }
 .box:hover.sconto{
