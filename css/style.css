@@ -7,6 +7,7 @@
 .row{
     
     
+    
 
 }
 
@@ -17,6 +18,7 @@ main{
     background: red;
     margin-top: 50px;
     margin-left: 30%;
+    
 }
 
 .box{
@@ -28,6 +30,7 @@ main{
     display: inline-block;
     background-image:url(../img/1.webp);
     background-size: cover;
+    position: relative;
     
     
 }
@@ -40,6 +43,7 @@ main{
     display: inline-block;
     background-image:url(../img/2.webp);
     background-size: cover;
+    position: relative;
     
     
 }
@@ -52,6 +56,7 @@ main{
     display: inline-block;
     background-image:url(../img/3.webp);
     background-size: cover;
+    position: relative;
     
     
 }
@@ -64,6 +69,7 @@ main{
     display: inline-block;
     background-image:url(../img/4.webp);
     background-size: cover;
+    position: relative;
     
     
 }
@@ -76,6 +82,7 @@ main{
     display: inline-block;
     background-image:url(../img/5.webp);
     background-size: cover;
+    position: relative;
     
     
 }
@@ -88,9 +95,39 @@ main{
     display: inline-block;
     background-image:url(../img/6.webp);
     background-size: cover;
+    position: relative;
+    
+}
+
+.sconto{
+    background-color: red;
+    width: 50px;
+    height: 10px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    font-size:5px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    
     
     
 }
+ .sostenibilita{
+    background-color: green;
+    height: 10px;
+    width: 0px;
+    position: absolute;
+    left: 80px;
+    bottom: 25px;
+    font-size:15px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    
+
+ }
 
 
 .box-overlay{
@@ -108,6 +145,43 @@ main{
     background-size: cover;
     
 }
+.box:hover.sconto{
+    display: inline-block;
+    
+   
+    
+}
+
+.box-overlay::after{
+    content: "-50%";
+    background-color: red;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    font-size:15px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+.sconto::after{
+    content: "Sostenibilita";
+    background-color: #00875a;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 60px;
+    bottom: 0px;
+    font-size:15px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    
+}
+
+
+
 
 .box-overlay2{
     width: 100%;
@@ -123,6 +197,20 @@ main{
     background-size: cover;
     
 }
+.box-overlay2::after{
+    content: "-30%";
+    background-color: red;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    bottom: 25px;
+    font-size:15px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
 .box-overlay3{
     width: 100%;
     height: 100%;
@@ -137,6 +225,20 @@ main{
     background-size: cover;
     
 }
+.box-overlay3::after{
+    content: "-30%";
+    background-color: red;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    bottom: 25px;
+    font-size:15px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
 .box-overlay4{
     width: 100%;
     height: 100%;
@@ -151,6 +253,35 @@ main{
     background-size: cover;
     
 }
+
+
+.box-overlay4::after{
+    content: "-50%";
+    background-color: red;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    font-size:15px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+.sconto::after{
+    content: "Sostenibilita";
+    background-color: #00875a;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 60px;
+    bottom: 0px;
+    font-size:15px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
 .box-overlay5{
     width: 100%;
     height: 100%;
@@ -177,8 +308,24 @@ main{
     display: inline-block;
     background-image: url(../img/6b.webp);
     background-size: cover;
+    background-color: red;
     
 }
+
+.box-overlay6::after{
+    content: "Sostenibilita";
+    background-color: #00875a;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    bottom: 25px;
+    font-size:15px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
 
 
 
